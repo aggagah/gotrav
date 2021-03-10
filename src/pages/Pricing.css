@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@700&display=swap");
+
+section.pricing {
+	position: relative;
+	height: 100vh;
+	width: 100%;
+	background: url("../images/sky.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+}
+
+section.pricing .container {
+	height: 80%;
+	width: 80%;
+	text-align: center;
+	padding: 70px 10px 10px 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+section.pricing .container .text {
+	height: 10%;
+	width: 60%;
+	color: #f5f5f5;
+}
+
+section.pricing .container .text h1 {
+	font-family: "Rubik";
+	text-transform: uppercase;
+	font-size: 2.5em;
+}
+
+section.pricing .container .card-group {
+	position: relative;
+	height: 90%;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Collapse } from "@material-ui/core";
 import Card from "../components/Card";
+import Footer from "../components/Footer";
 import useWindowScrollPosition from "../hook/useWindowScrollPosition";
 import "./Home.css";
 import indonesia from "../images/indonesia.jpg";
@@ -14,7 +15,6 @@ function Home() {
 	}, []);
 
 	const checkedScrollOffset = useWindowScrollPosition("preview");
-	let currentYear = new Date().getFullYear();
 
 	return (
 		<>
@@ -67,16 +67,7 @@ function Home() {
 				</div>
 			</section>
 
-			<section className="footer" id="footer">
-				<div className="container">
-					<h1>
-						GO<span>TRAV</span>
-					</h1>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, maiores voluptatem et suscipit facere fugiat omnis vel odit eos maxime. Laudantium tenetur reprehenderit, fugit maxime illo saepe. Repellendus, quod natus.</p>
-					<br />
-					<p>&copy; {currentYear} Gagah Aji Gunadi</p>
-				</div>
-			</section>
+			<Footer />
 		</>
 	);
 }
