@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@700&display=swap");
+nav {
+	position: relative;
+	z-index: 1;
+	transition: 0.3s;
+}
+
+nav.navbar .container a.navbar-brand {
+	color: #f5f5f5;
+	font-family: "Dosis";
+	font-size: 33px;
+	cursor: pointer;
+}
+
+nav.navbar .container a.navbar-brand span {
+	color: #dbb85f;
+}
+
+nav.navbar .container .collapse ul.navbar-nav li.nav-item {
+	font-family: "Rubik";
+	color: #f5f5f5;
+}
+
+nav.navbar .container .collapse ul.navbar-nav li.nav-item:hover {
+	background-color: transparent;
+}
+
+nav.navbar .container .collapse button.reservation {
+	border: 1px solid rgba(255, 255, 255, 0.8);
+	background-color: transparent;
+	border-radius: 20px;
+	height: 100%;
+	padding: 10px 15px;
+	cursor: pointer;
+	color: #dbb85f;
+	text-transform: uppercase;
+	font-weight: 500;
+	transition: ease-in 0.3s;
+}
+
+nav.navbar .container .collapse button.reservation:hover {
+	background-color: rgba(255, 255, 2555, 0.8);
+	font-weight: 600;
+	transition: ease-out 0.3s;
+	color: #0e0b10;
+}
+
+/* Navbar class when scrolled on */
+.active {
+	background-color: #0e0b10;
+	transition: 0.3s;
+}
