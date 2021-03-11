@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Home from "../pages/Home";
 import Pricing from "../pages/Pricing";
 import Contact from "../pages/Contact";
+import SignUp from "../pages/SignUp";
 import "./Navbar.css";
 
 function Navbar() {
@@ -57,6 +58,7 @@ function Navbar() {
 			<Route path="/" exact component={Home}></Route>
 			<Route path="/pricing" exact component={Pricing}></Route>
 			<Route path="/contact" exact component={Contact}></Route>
+			<Route path="/signup" exact component={SignUp}></Route>
 		</Router>
 	);
 }

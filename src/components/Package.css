@@ -1,0 +1,16 @@
+.col .card {
+	transition: 0.3s;
+}
+
+.col .card:hover {
+	transform: scale(1.1) translateY(-10px);
+	transition: 0.3s;
+}
+
+.col .card .card-header {
+	background-color: #dbb85f;
+	color: #f5f5f5;
+	font-family: "Rubik";
+	font-size: 1.5em;
+	text-transform: uppercase;
+}

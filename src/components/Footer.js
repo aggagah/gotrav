@@ -9,7 +9,7 @@ function Footer() {
 				<h1>
 					GO<span>TRAV</span>
 				</h1>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, maiores voluptatem et suscipit facere fugiat omnis vel odit eos maxime. Laudantium tenetur reprehenderit, fugit maxime illo saepe. Repellendus, quod natus.</p>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, maiores voluptatem et suscipit facere fugiat omnis vel odit eos maxime. </p>
 				<br />
 				<p>&copy; {currentYear} Gagah Aji Gunadi</p>
 			</div>
